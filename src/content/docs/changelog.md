@@ -1,0 +1,48 @@
+---
+title: Changelog
+description: A page with the changelog of Refact.
+---
+
+### July 28, 2023
+
+Refact is now open-source and available for everyone in our GitHub repository. We've added self-hosted fine-tuning, and support for more LLMs: WizardLM, WizardCode, and Llama2.
+
+### May 4, 2023
+
+We're releasing a new Self-Hosted Server that allows Refact users to use code completion, code transformation, and chat functions powered by the StarCoder 15b code model on your own GPU.
+
+### April 20, 2023
+
+There's now a new self-hosted version of Refact, to try it please follow these [instructions](https://github.com/smallcloudai/refact-self-hosting).
+
+### March 30, 2023
+
+Today we're launching AI toolbox and AI chat. The functions that are now available in Refact include: Explain Error, Comment each line, Add Docstrings, Fix Bug, Explain Code, Add console logs, Chat, Analyze Computational Complexity, Descriptive Naming, Make Code Shorter, Add type hints, Highlight and Fix, Select and Refactor. [Read more](https://refact.ai/blog/2023/introducing-refact-ai)
+
+### December 27, 2022
+
+We are excited to announce the Refact plugin refact.ai for Visual Studio Code and JetBrains family editors. The plugin is available for free and can be installed directly from the Visual Studio Code Marketplace or the JetBrains plugin repository. You have the option to self-host the inference on your own GPU or use our cloud service with free trial. We welcome your feedback and suggestions.
+
+### December 15, 2022
+
+Today we are releasing 0.3b and 3b multi language code generation models. Check them out on Hugging Face:
+
+|                     | Size(B) | Human Eval@1 | Human Eval@100 |
+| ------------------- | ------- | ------------ | -------------- |
+| CodeParrot          | 1.5     | 4.0          | 17.9           |
+| PolyCoder           | 2.7     | 5.6          | 17.7           |
+| GPT-J               | 6       | 11.6         | 27.7           |
+| FB INCODER-6.7B     | 6.7     | 15.2         | 47.0           |
+| CODEGEN-MULTI 6b    | 6.1     | 18.2         | 44.9           |
+| CODEGEN-MULTI 3b    | 2.7     | 14.51        | 38.6           |
+| CONTRASTcode/medium | 0.3     | 11.0         |                |
+| CONTRASTcode/3b     | 3       | 16.9         |                |
+
+In addition to regular prompting, those models also can infill code in the middle and produce changes to the code by following instructions. Stay tuned for an open source library to use these capabilities!
+
+**Small Magellanic Cloud AI Ltd**, is a UK-registered company focused on creating AI tools for coding.
+
+References:
+
+- https://huggingface.co/smallcloudai/codify_medium_multi
+- https://huggingface.co/smallcloudai/codify_3b_multi
