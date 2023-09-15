@@ -7,8 +7,8 @@ export default defineConfig({
 		starlight({
 			title: 'Refact Documentation',
 			logo: {
-				light: '/src/assets/logo.svg',
-				dark: '/src/assets/logo.svg',
+				light: '/src/assets/logo-light.svg',
+				dark: '/src/assets/logo-dark.svg',
 				replacesTitle: true,
 			},
 			social: {
@@ -52,6 +52,10 @@ export default defineConfig({
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
 			],
+			editLink: {
+				baseUrl: 'https://github.com/smallcloudai/web_docs_refact_ai/edit/main/',
+			},
+			lastUpdated: true,
 		}),
 	],
 });
