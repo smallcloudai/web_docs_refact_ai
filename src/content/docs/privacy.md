@@ -21,7 +21,6 @@ When working with code blocks that use third-party APIs you will receive an erro
 
 If you open the tab of the `Explain Code` tab, you will see an error message at the top section
 
-(((Screenshot of the error message)))
 ### Refact Cloud Version
 When using Refact's cloud version, data is sent to our servers for processing. However, it's important to note that we do not collect datasets on the server side. Your code and information are used solely to enhance your coding experience and provide you with intelligent suggestions.
 
