@@ -41,3 +41,9 @@ button {
 .site-title {
     max-width: 120px;
 }
+header.dialog {
+	background-color: #fff !important;
+}
+.pagefind-ui__search-input {
+	border: 0 !important;
+}
