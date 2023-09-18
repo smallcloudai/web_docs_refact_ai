@@ -3,7 +3,7 @@ title: Refact for JetBrains IDEs
 description: A page which explains how to install and use Refact for JetBrains IDEs
 ---
 
-For JetBrains products, after installing the plugin from the marketplace, press ` Cmd``, ` to open the settings panel.
+For JetBrains products, after installing the plugin from the [marketplace](https://plugins.jetbrains.com/plugin/20647-codify), press ` Cmd + , ` to open the settings panel.
 
 Find `Refact` in the list of plugins and log in to your Refact account.
 
