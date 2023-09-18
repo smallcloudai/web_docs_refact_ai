@@ -25,7 +25,7 @@ export default defineConfig({
 							items: [
 								{ label: 'AI Chat', link: '/features/ai-chat/' },
 								{ label: 'Code Completion', link: '/features/code-completion/' },
-								{ label: 'AI Toolbox', autogenerate: { directory: 'features/ai-toolbox' } },
+								{ label: 'AI Toolbox', link: '/features/ai-toolbox/' },
 								{ label: 'Fine-tuning', link: '/features/fine-tuning/' }
 							]
 						},
@@ -43,6 +43,7 @@ export default defineConfig({
 				{
 					label: 'Supported Models',
 					items: [
+						{ label: 'Supported Models in Refact', link: '/supported-models/supported-models/' },
 						{ label: 'Refact LLM', link: '/supported-models/refact-llm/' },
 						{ label: 'Starcoder', link: '/supported-models/starcoder/' },
 						{ label: 'Wizard Coder', link: '/supported-models/wizard-coder/' },
