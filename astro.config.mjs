@@ -44,11 +44,11 @@ export default defineConfig({
 					label: 'Supported Models',
 					items: [
 						{ label: 'Supported Models in Refact', link: '/supported-models/supported-models/' },
-						{ label: 'Refact LLM', link: '/supported-models/refact-llm/' },
-						{ label: 'Starcoder', link: '/supported-models/starcoder/' },
-						{ label: 'Wizard Coder', link: '/supported-models/wizard-coder/' },
-						{ label: 'Code Llama', link: '/supported-models/code-llama/' },
-						{ label: 'Llama2', link: '/supported-models/llama2/' },
+						// { label: 'Refact LLM', link: '/supported-models/refact-llm/' },
+						// { label: 'Starcoder', link: '/supported-models/starcoder/' },
+						// { label: 'Wizard Coder', link: '/supported-models/wizard-coder/' },
+						// { label: 'Code Llama', link: '/supported-models/code-llama/' },
+						// { label: 'Llama2', link: '/supported-models/llama2/' },
 					]
 				},
 				{
