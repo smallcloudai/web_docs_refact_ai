@@ -3,7 +3,7 @@ title: Enterprise Refact
 description: A page which explains what Refact is and how it works.
 ---
 
-Enterprise self-hosted version of Refact allows you to fine-tune your company's code and manage access to it. Enetrprise plan is designed for teams who want to have full control over their Refact experience and access to all features.
+Enterprise self-hosted version of Refact allows you to fine-tune your company's code model and manage access to it. Enetrprise plan is designed for teams who want to have full control over their Refact experience and access to all features.
 
 ## Setup process
 
