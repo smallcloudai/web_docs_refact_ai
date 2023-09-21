@@ -5,7 +5,7 @@ description: A page which explains what Refact is and how it works.
 
 Enterprise self-hosted version of Refact allows you to fine-tune your company's code model and manage access to it. Enetrprise plan is designed for teams who want to have full control over their Refact experience and access to all features.
 
-## Setup process
+## Install Docker
 
 First, run the following in your terminal:
 
@@ -42,3 +42,15 @@ Access control tab contains the following:
 ## Activating the License
 
 To activate the enterprise plan with a license [contact us](https://refact.ai/contact/). Refact team will arrange it for you.
+
+
+## VLLM 
+With enterprise version of Refact you can use vLLM Refact model.
+
+vLLM offers a faster inference speed and better accuracy.
+
+### Enabling vLLM 
+
+To enable vLLM navigate to the `Model Hosting` page and click the `Add Model` button. 
+
+in the list of available models select the `Refact/1.6B/vllm` model.
