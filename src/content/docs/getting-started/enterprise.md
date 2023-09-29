@@ -56,7 +56,7 @@ You can also add the team for each user.
 
 ### Add one of the supported models
 
-Each model has different supported functions (chat / completion / toolbox / fine-tuning). The list of supported models with different functions can be found here [https://docs.refact.ai/supported-models/supported-models/].
+Each model has different supported functions (chat / completion / toolbox / fine-tuning). The list of supported models with different functions can be found [here](https://docs.refact.ai/supported-models/supported-models/)
 
 ### Enabling vLLM
 
@@ -98,7 +98,7 @@ You can verify what this automatic process is doing by clicking on "Accepted" an
 
 After your dataset has been filtered, you're ready to start the fine-tuning process.
 First, select one of the pre-trained models for fine-tuning. 
-For a list of the models that currently support fine-tuning please see here [https://docs.refact.ai/supported-models/supported-models/].
+For a list of the models that currently support fine-tuning please see [here](https://docs.refact.ai/supported-models/supported-models/).
 
 Once you start fine-tuning, the training time will be automatically determined by the dataset size and complexity. 
 
