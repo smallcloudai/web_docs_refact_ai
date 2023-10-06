@@ -1,6 +1,6 @@
 ---
 title: Enterprise Refact Edition (Beta)
-description: A page which explains what Refact is and how it works.
+description: What Enterprise Refact is and how it works.
 ---
 
 Enterprise self-hosted version of Refact allows you to deploy various code models for a local AI code assistant inside your IDE. It also allows you to create a fine-tuned model on your company's codebase. 
@@ -80,6 +80,14 @@ If you have an OpenAI API key, you can connect it to Refact and use GPT-series m
 With this integration you will send your data to 3rd party providers (OpenAI). To enable OpenAI integration, you should go to settings (top right) and set and save your API key for the server usage.
 :::
 
+## Setting up the plugins 
+For VS Code: go to “Settings” and specify the server address and Refact API key provided by your admin.
+
+For JetBrains: go to “Settings” and specify the server address and the Refact API key provided by your admin.
+
+Once you connect the API key, start writing code, and code suggestions from a selected model will appear automatically. 
+
+
 ## Fine-tune a model on your codebase
 ![Finetune](../../../assets/enterprise-finetune.png)
 
@@ -137,9 +145,6 @@ We automatically split filtered files into train and test sets and on the plot y
 ### Using a fine-tuned model
 
 - Select which checkpoint from the latest fine-tune run you want to use: best from the latest or specify a custom checkpoint.  
+- If you want to use the base model without fine-tuning switch the toggle to “off”.
+- Once you select which fine-tuned model to use, the suggestions from it will appear automatically in your IDE. 
 
-- Connect the model to your IDE<br><br>
-For VS Code: go to "Settings" and specify the server address and Refact API key provided by your admin.<br><br>
-For JetBrains: go to "Settings" and specify the server address and the Refact API key provided by your admin.
-
-Once you connect the API key, start writing code and code suggestions from a new fine-tuned model will appear automatically.
