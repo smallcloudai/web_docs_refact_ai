@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const site = 'https://docs.refact.ai/';
+
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
@@ -17,6 +19,14 @@ export default defineConfig({
 			},
 			head: [
 				{
+					tag: 'meta',
+					attrs: { property: 'og:image', content: site + 'og.jpg' }
+				},
+				{
+					tag: 'meta',
+					attrs: { property: 'twitter:image', content: site + 'og.jpg' }
+				},
+        {
 					tag: 'script',
 					attrs: {
 						async: true,
