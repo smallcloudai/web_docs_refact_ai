@@ -3,6 +3,10 @@ title: Changelog
 description: A page with the changelog of Refact.
 ---
 
+### September 4, 2023
+
+Today we're introducing Refact LLM: 1.6B code model with infill real-time code completion (state of the art for the size) and chat.
+
 ### July 28, 2023
 
 Refact is now open-source and available for everyone in our GitHub repository. We've added self-hosted fine-tuning, and support for more LLMs: WizardLM, WizardCode, and Llama2.
