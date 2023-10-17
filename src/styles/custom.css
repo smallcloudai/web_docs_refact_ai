@@ -47,3 +47,19 @@ header.dialog {
 .pagefind-ui__search-input {
 	border: 0 !important;
 }
+.full-table {
+    width: 100% !important;
+    table-layout:fixed;
+}
+.full-table thead,
+.full-table tbody,
+.full-table tr {
+    width: 100% !important;   
+}
+.full-table td,
+.full-table th {
+    width: 100vw;
+}
+.full-table td:nth-child(2) {
+    text-align: center;
+}
