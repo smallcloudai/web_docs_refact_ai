@@ -2,6 +2,9 @@
 title: Changelog
 description: A page with the changelog of Refact.
 ---
+### October 6, 2023
+We now have a new version and plan for Enterprise. Read more [here](https://refact.ai/blog/2023/introducing-refact-for-enterprise/)
+![Refact for Enterprise](https://refact.ai/images/blog/introducing-refact-for-enterprise/refact-server.png)
 
 ### September 4, 2023
 
