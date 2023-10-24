@@ -19,7 +19,7 @@ Our own model is Refact 1.6B code LLM. It's State-of-the-art for the size and In
 For chat we use models from the GPT family, you have the option to opt-out of them.  
 In the self-hosted version we also have StarCoder, Code Llama and WizardCoder models. 
 
-For a full list of our supported models and their functionality, check our (docs)[https://docs.refact.ai/supported-models/supported-models/]. 
+For a full list of our supported models and their functionality, check our [docs](https://docs.refact.ai/supported-models/supported-models/). 
 
 ### Do you plan to support more IDEs? 
 
@@ -33,7 +33,7 @@ Yes. Fine-tuning is currently supported in our free self-hosted and Enterprise p
 
 ### Can I buy Refact license for my company?
 
-Sure! We currently have an Enterprise self-hosted plan and we plan to add team cloud plan soon. If you're interested in purchasing a license for your company, please (contact us)[https://refact.ai/contact]. 
+Sure! We currently have an Enterprise self-hosted plan and we plan to add team cloud plan soon. If you're interested in purchasing a license for your company, please [contact us](https://refact.ai/contact). 
 
 ### How can I contribute? 
-We welcome contributions! If you're interested in contributing, please check our (GitHub)[https://github.com/smallcloudai/refact/]. 
+We welcome contributions! If you're interested in contributing, please check our [GitHub](https://github.com/smallcloudai/refact/). 
