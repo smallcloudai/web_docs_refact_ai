@@ -26,7 +26,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: { property: 'twitter:image', content: site + 'og.jpg' }
 				},
-        		{
+				{
 					tag: 'script',
 					attrs: {
 						async: true,
@@ -51,31 +51,37 @@ export default defineConfig({
 					!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
 					posthog.init('phc_dhlxxMkxVCImmYtDh7gwD7y4EUbjus3iGNjaonPsJlO',{api_host:'https://data.smallcloud.ai'})
 					`,
-				},	
+				},
 			],
 			sidebar: [
 				{
 					label: 'Introduction',
 					items: [
-						{ label: 'What is Refact?', link: '/introduction/what-is-refact/' },
+						{ label: 'Overview', link: '/introduction/overview/' },
 						{
 							label: 'Features',
 							items: [
 								{ label: 'AI Chat', link: '/features/ai-chat/' },
 								{ label: 'Code Completion', link: '/features/code-completion/' },
 								{ label: 'AI Toolbox', link: '/features/ai-toolbox/' },
-								{ label: 'Fine-tuning', link: '/features/fine-tuning/' }
+								{ label: 'Fine-tuning', link: '/features/fine-tuning/' },
+								{ label: 'Self-hosted Features', link: '/features/self-hosted/' },
 							]
 						},
 					],
 				},
 				{
-					label: 'Getting Started',
+					label: 'Plugins',
 					items: [
-						{ label: 'Refact for VS Code', link: '/getting-started/vs-code/' },
-						{ label: 'Refact for Jetbrains', link: '/getting-started/jetbrains/' },
-						{ label: 'Self-hosted Refact', link: '/getting-started/self-hosted/' },
-						{ label: 'Enterprise Refact', link: '/getting-started/enterprise/' },
+						{ label: 'Refact for VS Code', link: '/plugins/vs-code/' },
+						{ label: 'Refact for Jetbrains', link: '/plugins/jetbrains/' },
+					]
+				},
+				{
+					label: 'Guides',
+					items: [
+						{ label: 'Self-hosted Refact', link: '/guides/self-hosted/' },
+						{ label: 'Enterprise Refact', link: '/guides/enterprise/' },
 					]
 				},
 				{
