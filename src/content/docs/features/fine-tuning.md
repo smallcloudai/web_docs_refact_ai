@@ -3,12 +3,31 @@ title: Fine-tuning
 description: A page describing fine-tuning concept.
 ---
 
+Fine-tuning is a feature that allows you to adopt a model for your needs.
+
+:::note
+Fine-tuning is available in the [Self-hosted](https://docs.refact.ai/guides/self-hosted/) version of Refact and [Enterprise Edition](https://docs.refact.ai/guides/enterprise/).
+:::
+
+Fine-tuned models bring several advantages:
+- Fine-tuning adapts the model to your coding style, leading to a better quality of suggestions provided with Refact.
+- Fine-tuning allows you to use the model for specific APIs, classes, and functions of which the base model is unaware.
+- Fine-tuned models are more efficient and provide the correct suggestions as they are trained on a dataset that includes the relevant code style and patterns.
+
+Models that can be fine-tuned for code completion include:
+- Refact/1.6B
+- starcoder/1b/base
+- starcoder/3b/base
+- starcoder/7b/base
+
+For the complete list of available models, navigate to [Supported Models](https://docs.refact.ai/supported-models/) reference.
+
 ## Deploy a LLM
 ![Deploy](../../../assets/enterprise-deploy.png)
 
 ### Add one of the supported models
 
-Each model has different supported functions (chat / completion / toolbox / fine-tuning). The list of supported models with different functions can be found [here](https://docs.refact.ai/supported-models/supported-models/)
+Each model has different supported functions (chat / completion / toolbox / fine-tuning). The list of supported models with different functions can be found [here](https://docs.refact.ai/supported-models/)
 
 ### Preparing a Dataset for Fine-tuning
 
@@ -35,7 +54,7 @@ The potential rejection reasons are listed below:
 4. **Excluded by mask** - Refers to files that are manually excluded.
 5. **Duplicates** - Duplicated files are rejected from the dataset.
 6. **Lots of digits** - If the percentage of digits in the file exceeds a specific amount, the file will be rejected from the filtered dataset.
-7. **Filter empty** - That reason is applicable when perplexity a metric assessing the model's predictive probability) cannot be calculated.
+7. **Filter empty** - That reason is applicable when perplexity (a metric assessing the model's predictive probability) cannot be calculated.
 
 :::note
 Files that didn't pass the linguist scanning could not be included manually after the filtering process.
@@ -45,7 +64,7 @@ Files that didn't pass the linguist scanning could not be included manually afte
 
 After your dataset has been filtered, you're ready to start the fine-tuning process.
 First, select one of the pre-trained models for fine-tuning. 
-For a list of the models that currently support fine-tuning please see [here](https://docs.refact.ai/supported-models/supported-models/).
+For a list of the models that currently support fine-tuning please see [here](https://docs.refact.ai/supported-models/).
 
 Once you start fine-tuning, the training time will be automatically determined by the dataset size and complexity. 
 
