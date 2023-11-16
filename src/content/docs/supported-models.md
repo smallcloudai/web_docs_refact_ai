@@ -78,6 +78,9 @@ In Refact self-hosted you can select between the following models:
 <td>wizardlm/13b</td>
 </tr>
 <tr>
+<td>wizardlm/30b</td>
+</tr>
+<tr>
 <td>llama2/7b</td>
 </tr>
 <tr>
