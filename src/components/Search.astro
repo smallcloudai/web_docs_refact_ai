@@ -1,0 +1,33 @@
+---
+import "@docsearch/css";
+---
+
+<div id="docsearch"></div>
+
+<script>
+    import docsearch from "@docsearch/js";
+
+    docsearch({
+        container: "#docsearch",
+        appId: "ANAV9NA8H5",
+        indexName: "refact",
+        apiKey: "2bae895dcb109e0a9b87ee935c121c85",
+    });
+</script>
+
+<style>
+    div {
+        display: contents;
+    }
+
+    div[data-open-modal] {
+        width: 100%;
+    }
+
+    @media (min-width: 50rem) {
+        :global(.DocSearch-Button) {
+            width: 100%;
+            max-width: 22rem;
+        }
+    }
+</style>

@@ -1,29 +1,46 @@
 ---
-title: Welcome to Refact Documentation!
-description: Refact is a powerful AI coding assistant that combines completion, refactoring, chat, and more.
+title: Refact Documentation
+description: Refact is an open-source AI coding assistant for VS Code and JetBrains.
+next:
+  link: /introduction/quickstart/
+  label: Quickstart
 ---
-Refact is a powerful AI coding assistant that combines completion, refactoring, chat, and more.
+
+Refact is an open-source AI coding assistant for VS Code and JetBrains. 
+
+It allows you to use various open-source (like Code Llama) and closed-source (like GPT-4) large language models (LLMs) for code completion, code refactoring and chat. 
+
+Self-hosted Refact allows you to personalize code LLMs for code completion with an intuitive Web UI. 
+
+## Guides
+To get started, follow the guides:
+- [Cloud QuickStart](https://docs.refact.ai/introduction/quickstart/)
+- [Self-hosted Refact](https://docs.refact.ai/guides/self-hosted/)
+- [Enterprise Refact Edition](https://docs.refact.ai/guides/enterprise/)
+
+## Privacy
+Refact allows you to restrict access to particular files or projects, ensuring that your private code or confidential files are protected. 
+
+We never store your code on the server side.
+
+Read more about privacy settings in the [Privacy docs](https://docs.refact.ai/privacy/).
+
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Features
+## More Resources
 
 <CardGrid stagger>
-	<Card title="Code Completion" icon="pencil">
-		As you write code, Refact suggests potential code completions based on the context of your code, 
-    looking up and down. It can suggest whole functions, classes, commonly used programming patterns, 
-    libraries, and APIs usage.
+	<Card title="Discord server" icon="pencil">
+		To get assistance from the Refact community and team members, join the [Discord server](https://smallcloud.ai/discord).
 	</Card>
-	<Card title="Improve code" icon="magnifier">
-		Refact can identify code that could be refactored to be more efficient or easier to understand. 
-    It can also detect bugs in your code and generate patches to fix them.
+	<Card title="FAQ" icon="magnifier">
+		[FAQ segment](https://docs.refact.ai/faq/) covers the most popular questions about Refact.
 	</Card>
-	<Card title="AI Chat" icon="rocket">
-		Use plain language prompts in Refact chat to ask questions or get help with 
-    writing code without leaving your IDE.
+	<Card title="Contributing" icon="rocket">
+		To set up Refact for development, follow the Contributing guide and check the available issues on [GitHub](https://github.com/smallcloudai/refact).
 	</Card>
-	<Card title="Transform and analyze code" icon="setting">
-		Refact can analyze the complexity of your code and explain unclear lines of code. 
-    It can also transform your code into a different language.
+	<Card title="Changelog" icon="setting">
+		Explore what was delivered with the recent versions of Refact in the [Changelog](https://docs.refact.ai/changelog/).
 	</Card>
 </CardGrid>
