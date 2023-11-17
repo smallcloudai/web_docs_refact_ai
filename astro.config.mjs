@@ -80,9 +80,7 @@ export default defineConfig({
         },
         {
           label: 'Supported Models',
-          items: [
-            { label: 'Supported Models in Refact', link: '/supported-models/supported-models/' },
-          ]
+          link: '/supported-models/',
         },
         {
           label: 'FAQ',
