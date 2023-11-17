@@ -42,11 +42,11 @@ In Refact self-hosted you can select between the following models:
 <td>✓</td>
 </tr>
 <tr>
-<td>deepseek-coder/1.3b</td>
+<td>deepseek-coder/1.3b/base</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>deepseek-coder/5.7b</td>
+<td>deepseek-coder/5.7b/mqa-base</td>
 <td>✓</td>
 </tr>
 <tr>
