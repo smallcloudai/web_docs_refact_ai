@@ -18,7 +18,7 @@ Run the following in your terminal:
 docker pull smallcloud/refact_self_hosting_enterprise:beta
 wget https://docs.refact.ai/docker-compose.yml
 ```
-[Download](https://docs.refact.ai/docker-compose.yml) the `docker-compose.yml` file and run the docker `compose up` command in your terminal.
+[Download](https://docs.refact.ai/enterprise/docker-compose.yml) the `docker-compose.yml` file and run the docker `compose up` command in your terminal.
 
 ## Generating a Random Admin Password
 
