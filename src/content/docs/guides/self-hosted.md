@@ -1,6 +1,6 @@
 ---
 title: Self-hosted Refact
-description: A page with instructions on how to run a self-hosted Refact option..
+description: A page with instructions on how to run a self-hosted Refact option.
 ---
 
 Self-hosted version of Refact is a more flexible option with additional features. It allows you to create fine-tuned models for your specific task. 
