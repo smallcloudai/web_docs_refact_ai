@@ -76,6 +76,7 @@ export default defineConfig({
           items: [
             { label: 'Self-hosted Refact', link: '/guides/self-hosted/' },
             { label: 'Enterprise Refact', link: '/guides/enterprise/' },
+            { label: 'Reverse Proxy', link: '/guides/reverse-proxy/' },
           ]
         },
         {
