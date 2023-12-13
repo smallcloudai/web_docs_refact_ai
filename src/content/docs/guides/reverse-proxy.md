@@ -46,8 +46,7 @@ http {
   }
 
   server {
-    listen  0.0.0.0:443  ssl;
-    http2  on;
+    listen  0.0.0.0:443  ssl http2;
     server_name myserver;
 
     ssl_certificate /your/path/certificate.crt;
@@ -60,18 +59,20 @@ http {
     add_header Referrer-Policy                      "no-referrer"                       always;
     add_header X-Permitted-Cross-Domain-Policies    "none"                              always;
     add_header X-Robots-Tag                         "noindex, nofollow"                 always;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $http_connection;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_buffering off;                     # makes chat streaming possible
 
     location / {
       allow all;
       proxy_pass http://refact-default;      # here "refact-default" refers to the upstream block above
-      proxy_set_header Upgrade $http_upgrade;
-      proxy_set_header Connection $http_connection;
-      proxy_set_header Host $host;
-      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-      proxy_set_header X-Real-IP $remote_addr;
-      proxy_set_header X-Forwarded-Proto $scheme;
     }
 
+    error_page 307 = @redirect;
     location @redirect {
       return 307 https://$host$request_uri;
     }
