@@ -5,11 +5,9 @@ description: Setting Up nginx Reverse Proxy for Refact
 
 ## Why Reverse Proxy?
 
-A reverse proxy is a software (nginx in this case) that acts as an intermediary for requests from clients to a server.
-To access the Refact server from anywhere on the internet, the reverse proxy needs to accept encrypted HTTPS requests and forward them
-via HTTP to the Refact server.
+To access a Refact server from anywhere on the internet, the reverse proxy needs to accept encrypted HTTPS requests and forward them via HTTP to the Refact server.
 
-Encryption is not the only thing you need to make the connection secure -- you also need to set a good password.
+Transport encryption is not the only thing you need to make the connection secure -- you also need to set a good password.
 
 
 ## Self-Signed Certificate
@@ -20,7 +18,8 @@ You can generate a self-signed certificate in one command:
 openssl req -x509 -newkey rsa:4096 -nodes -keyout private_key.key -out certificate.crt -days 365
 ```
 
-Of course it's better to use a real certificate, because clients will be able to verify it.
+Of course it's better to use a real certificate, because clients will be able to verify it, making
+man-in-the-middle attacks impossible.
 For a self-signed certificate, you will need to set "Allow insecure server connections when using SSL" option
 in the IDE plugin settings.
 
@@ -34,7 +33,7 @@ It's possible to try it your laptop as well (use `brew install nginx` on a macbo
 /opt/homebrew/opt/nginx/bin/nginx -g "daemon off;" -c ~/my_reverse_proxy.config
 ```
 
-`daemon off;` allows nginx to run the the current console, so you can quickly stop and restart it.
+The `daemon off;` part allows nginx to run the the current console, so you can quickly stop and restart it.
 
 An example of `my_reverse_proxy.config` that's tested to work with Refact, with comments:
 
@@ -47,9 +46,8 @@ http {
   }
 
   server {
-    listen  127.0.0.1:443  ssl;
-    listen            443  ssl;
-    http2 on;
+    listen  0.0.0.0:443  ssl;
+    http2  on;
     server_name myserver;
 
     ssl_certificate /your/path/certificate.crt;
@@ -64,8 +62,7 @@ http {
     add_header X-Robots-Tag                         "noindex, nofollow"                 always;
 
     location / {
-      allow 127.0.0.1;
-      deny all;
+      allow all;
       proxy_pass http://refact-default;      # here "refact-default" refers to the upstream block above
       proxy_set_header Upgrade $http_upgrade;
       proxy_set_header Connection $http_connection;
@@ -74,6 +71,11 @@ http {
       proxy_set_header X-Real-IP $remote_addr;
       proxy_set_header X-Forwarded-Proto $scheme;
     }
+
+    location @redirect {
+      return 307 https://$host$request_uri;
+    }
+
     client_max_body_size 1G;
 
     ssl_protocols TLSv1.2 TLSv1.3;       # The refact-lsp binary does not support TLSv1.3 yet -- waiting for reqwest library to catch up
@@ -88,6 +90,7 @@ http {
     resolver_timeout 5s;
   }
 }
+
 events {
   worker_connections 1024;
   multi_accept on;
