@@ -15,7 +15,7 @@ The enterprise plan is designed for teams who want to have full control over the
 
 Run the following in your terminal:
 ```
-docker pull smallcloud/refact_self_hosting_enterprise:beta
+docker pull smallcloud/refact_self_hosting_enterprise:latest
 wget https://docs.refact.ai/docker-compose.yml
 ```
 [Download](https://docs.refact.ai/docker-compose.yml) the `docker-compose.yml` file and run the docker `compose up` command in your terminal.
