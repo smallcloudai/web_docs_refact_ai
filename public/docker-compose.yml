@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   refact:
-    image: smallcloud/refact_self_hosting_enterprise:beta
+    image: smallcloud/refact_self_hosting_enterprise:latest
     volumes:
       - perm_storage:/perm_storage
     ports:

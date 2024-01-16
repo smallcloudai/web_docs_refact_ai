@@ -1,5 +1,5 @@
 ---
-title: Enterprise Refact Edition (Beta)
+title: Enterprise Refact Edition
 description: What Enterprise Refact is and how it works.
 ---
 
@@ -15,9 +15,12 @@ The enterprise plan is designed for teams who want to have full control over the
 
 Run the following in your terminal:
 ```
-docker pull smallcloud/refact_self_hosting_enterprise:beta
+docker pull smallcloud/refact_self_hosting_enterprise:latest
 wget https://docs.refact.ai/docker-compose.yml
 ```
+:::note
+If you have used the enterprise with a `beta` tag before, please ensure you use the `latest` tag from now.
+:::
 [Download](https://docs.refact.ai/docker-compose.yml) the `docker-compose.yml` file and run the docker `compose up` command in your terminal.
 
 ## Generating a Random Admin Password
