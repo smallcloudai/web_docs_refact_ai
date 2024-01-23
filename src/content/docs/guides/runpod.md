@@ -74,4 +74,4 @@ Make sure you added the public SSH key in the pod settings as a value for the `P
 :::
 
 ## Network Volume
-In order to save pod settings and stats, Runpod ofers a network volume. To read more about it, visit [Runpod documentation](https://docs.runpod.io/docs/create-a-network-volume).
+In order to save pod settings and stats, Runpod offers a Network Volume. To read more about it, visit [Runpod documentation](https://docs.runpod.io/docs/create-a-network-volume).
