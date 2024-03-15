@@ -79,6 +79,7 @@ export default defineConfig({
             { label: 'Refact Teams', link: '/guides/teams/' },
             { label: 'Reverse Proxy', link: '/guides/reverse-proxy/' },
             { label: 'Runpod Deployment', link: '/guides/runpod/' },
+            { label: 'AWS Deployment', link: '/guides/aws/' },
           ]
         },
         {
