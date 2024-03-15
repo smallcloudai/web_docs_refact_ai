@@ -10,9 +10,9 @@ After installing the plugin from the [marketplace](https://marketplace.visualstu
 
 At the bottom, press the `Login/Register` button to connect your local development environment with your Refact account.
 
-![Refact Login page](../../../assets/login.png)
+![Refact Login page](../../../assets/refact_login.png)
 
-After completing the connection process, you'll see the list of available commands. and your account information.
+After completing the connection process, you'll be able to use the chat and the Toolbox which can be accessed by pressing `F1`.
 
 ![Refact Toolbox](../../../assets/toolbox.png)
 
