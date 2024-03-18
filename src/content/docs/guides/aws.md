@@ -53,3 +53,5 @@ Replace `"/path/to/your/refact_id_rsa.pem"` with the actual path to your downloa
 Once connected via SSH, follow the instructions provided by the Refact.ai CLI to complete the setup and deployment of Refact.
 
 ![Refact CLI](../../../assets/terminal.png)
+
+Continue to the [Refact Enterprise](https://docs.refact.ai/guides/enterprise/) page to learn how to use Refact for teams.
