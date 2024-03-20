@@ -59,6 +59,14 @@ When entering the `/help` command, you will see your custom command in the list 
 
 ## Customizable System Prompt
 
+In Refact, a **system prompt** is used to maintain a standard format and clarity in communication. By default, it is set to:
+
+```
+You are a programming assistant. Use backquotes for code blocks, give links to documentation at the end of the response.
+```
+
+System prompt is used for **chat** and **toolbox** features.
+
 To personalize your experience, you can add custom system prompts in the `customization.yaml` file:
 
 1. Navigate to the `customization.yaml` file.
@@ -73,3 +81,15 @@ my_custom_system_prompt:
 Your prompt will be available for selection in the dropdown for the `System Prompt` field in the chat UI.
 
 ![Custom System Prompt](../../../assets/custom_system_prompt.png)
+
+### Example of custom system prompt
+```
+web_dev_prompt:
+  description: "Prompt for Web Development Queries"
+  text: "You are an educational assistant specializing in React, Tailwind CSS, and Next.js.
+  Use backquotes for code snippets and provide context for your questions to get the most accurate assistance."
+```
+
+This custom prompt is designed to:
+- Increase specificity: Mentioning specific web technologies (React, Tailwind, Next.js) helps provide more targeted assistance.
+- Effective formatting: The mention of backquotes for code snippets instructs how to format the code blocks.
