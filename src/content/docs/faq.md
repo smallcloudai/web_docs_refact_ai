@@ -26,7 +26,7 @@ For a full list of our supported models and their functionality, check our [docs
 Yes! We already support VS Code and JetBrains. We have plans to support even more IDEs. If you want to contribute to our new plugins, please reach us out in Discord.
 
 ### Do you have a self-hosted option? 
-Yes. Refact has a free self-hosted version that you can check here. 
+Yes. Refact has a free self-hosted version that you can check [here](https://docs.refact.ai/guides/self-hosted/).
 
 ### Is it possible to fine-tune Refact to the company codebase? 
 Yes. Fine-tuning is currently supported in our free self-hosted and Enterprise plans. 
