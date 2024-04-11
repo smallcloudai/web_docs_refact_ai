@@ -135,3 +135,5 @@ In Refact self-hosted you can select between the following models:
 </tr>
 </tbody>
 </table>
+
+For an up-to-date list of models, see the [Known Models file on GitHub](https://github.com/smallcloudai/refact-lsp/blob/main/src/known_models.rs).

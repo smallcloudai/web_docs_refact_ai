@@ -80,6 +80,7 @@ export default defineConfig({
             { label: 'Reverse Proxy', link: '/guides/reverse-proxy/' },
             { label: 'Runpod Deployment', link: '/guides/runpod/' },
             { label: 'AWS Deployment', link: '/guides/aws/' },
+            { label: 'Keycloak Integration', link: '/guides/keycloak/' },
           ]
         },
         {
@@ -97,10 +98,6 @@ export default defineConfig({
         {
           label: 'Contributing',
           link: '/contributing/',
-        },
-        {
-          label: 'Changelog',
-          link: '/changelog/',
         },
       ],
       customCss: [
