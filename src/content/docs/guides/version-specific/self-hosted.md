@@ -30,7 +30,7 @@ To upgrade the docker, delete it using `docker kill XXX` (the volume `perm-stora
 
 Now you can visit http://127.0.0.1:8008 to see the server Web GUI.
 
-![Self-hosted Homepage](../../../assets/self-hosted-homepage.png)
+![Self-hosted Homepage](../../../../assets/self-hosted-homepage.png)
 
 :::note
 Add yourself to docker group to run docker without sudo (works for Linux): `commandline sudo usermod -aG docker {your user}` 
@@ -58,7 +58,7 @@ With this integration you will send your data to 3rd party providers (OpenAI). T
 :::
 
 ## Deploy a LLM
-![Deploy](../../../assets/enterprise-deploy.png)
+![Deploy](../../../../assets/enterprise-deploy.png)
 
 ### Add one of the supported models
 
@@ -109,7 +109,7 @@ The training process involves optimizing the model's weights and parameters to m
 You can specify custom parameters for fine-tuning in the "Advanced settings" tab.
 For example, if you want to improve the model's capacity or change the schedule of learning , ie make the training longer / shorter.
 
-![Advanced settings](../../../assets/enterprise-advanced.png)
+![Advanced settings](../../../../assets/enterprise-advanced.png)
 
 - Lora R / Lora Alpha -  some hyperparameters, related to a number of optimization parameters in the fine-tuned model.
 

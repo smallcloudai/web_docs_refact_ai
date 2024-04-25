@@ -52,7 +52,7 @@ Managing users is possible through the Access Control tab.
 Click "Add new user" and the user and their unique API key will be generated automatically. 
 You can also add the team for each user.
 
-![Login](../../../assets/enterprise-users.png)
+![Login](../../../../assets/enterprise-users.png)
 
 ### Enabling vLLM
 

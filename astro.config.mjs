@@ -62,6 +62,14 @@ export default defineConfig({
           items: [
             { label: 'Quickstart', link: '/introduction/quickstart/' },
             {
+              label: 'Installation',
+              items: [
+                { label: 'Installation Hub', link: '/installation/installation' },
+                { label: 'VS Code', link: '/installation/vs-code' },
+                { label: 'JetBrains IDEs', link: '/installation/jetbrains' },
+              ] 
+            },
+            {
               label: 'Features',
               items: [
                 { label: 'AI Chat', link: '/features/ai-chat/' },
@@ -74,13 +82,25 @@ export default defineConfig({
         {
           label: 'Guides',
           items: [
-            { label: 'Self-hosted Refact', link: '/guides/self-hosted/' },
-            { label: 'Enterprise Refact', link: '/guides/enterprise/' },
-            { label: 'Refact Teams', link: '/guides/teams/' },
+            { label: 'Deployment',
+              items: [
+                { label: 'Runpod Deployment', link: '/guides/deployment/runpod/' },
+                { label: 'AWS Deployment', link: '/guides/deployment/aws/' },
+             ] 
+            },
+            { label: 'Authentication', 
+              items: [
+                { label: 'Keycloak Integration', link: '/guides/authentication/keycloak/' },
+              ]
+            },
+            { label: 'Version-specific Usage',
+              items: [
+                { label: 'Self-hosted Refact', link: '/guides/version-specific/self-hosted/' },
+                { label: 'Enterprise Refact', link: '/guides/version-specific/enterprise/' },
+                { label: 'Refact Teams', link: '/guides/version-specific/teams/' },
+              ]
+            },
             { label: 'Reverse Proxy', link: '/guides/reverse-proxy/' },
-            { label: 'Runpod Deployment', link: '/guides/runpod/' },
-            { label: 'AWS Deployment', link: '/guides/aws/' },
-            { label: 'Keycloak Integration', link: '/guides/keycloak/' },
           ]
         },
         {
@@ -91,10 +111,10 @@ export default defineConfig({
           label: 'FAQ',
           link: '/faq/',
         },
-        {
-          label: 'Privacy',
-          link: '/privacy/',
-        },
+        // {
+        //   label: 'Privacy',
+        //   link: '/privacy/',
+        // },
         {
           label: 'Contributing',
           link: '/contributing/',
