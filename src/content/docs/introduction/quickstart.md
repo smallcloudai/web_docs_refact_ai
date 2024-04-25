@@ -7,7 +7,7 @@ description: Learn how to get started with Refact
 
 Refact is available in several versions designed for different needs:
 
-- **Cloud Version**: For individual developers who prefer not to manage infrastructure. Just sign up, install, and start using. Navigate to the [Installation Hub](https://docs.refact.ai/introduction/quickstart/) to get started.
+- **Cloud Version**: For individual developers who prefer not to manage infrastructure. Just sign up, install, and start using. Navigate to the [Installation Hub](https://docs.refact.ai/installation/installation-hub/) to get started.
 - **Cloud for Teams**: Offers team-specific features for the **Cloud Version**:
    - Stats Dashboard
    - Access Control
