@@ -26,11 +26,11 @@ The Stats dashboard offers comprehensive metrics to see the impact of Refact. It
 - **Refact's Impact by Programming Language**: Understand how Refact assists across different languages.
 - **Users Daily**: Monitor daily active users.
 
-![Stats](../../../assets/Summary.png)
+![Stats](../../../../assets/Summary.png)
 
 For detailed user-specific metrics, visit the Users tab within the Stats section.
 
-![User stats](../../../assets/Stats.png)
+![User stats](../../../../assets/Stats.png)
 
 ## Access Control
 
@@ -39,14 +39,14 @@ Manage your team members' access through the Access Control page. Here, you can:
 - **Add New Users**: Integrate new team members by specifying their account details and assigning them to a team.
 - **Edit Existing Users**: Update user information as needed.
 
-![Access Control](../../../assets/Access_Control.png)
+![Access Control](../../../../assets/Access_Control.png)
 
 Each user has specific settings:
 - **Account**: The email address associated with the user.
 - **Team**: The specific team the user is part of.
 - **API Key**: A unique key required for plugin authentication.
 
-![User info](../../../assets/Edit_User.png)
+![User info](../../../../assets/Edit_User.png)
 
 ## Plugin Configuration
 
@@ -57,6 +57,6 @@ For using Refact Teams with your IDE, follow these instructions to set up the pl
     - **Inference URL**: Enter the URL provided for your team's workspace.
     - **API Key**: Input the API Key associated with your user from the Access Control page. Each team member will use their unique API Key for authentication.
 
-![User info](../../../assets/teams_login.png)
+![User info](../../../../assets/teams_login.png)
 
 After applying these settings, the plugin will be configured to work with Refact Teams.

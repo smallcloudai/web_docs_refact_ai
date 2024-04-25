@@ -3,27 +3,31 @@ title: Quickstart
 description: Learn how to get started with Refact
 ---
 
-Refact plugins are available for VS Code and JetBrains IDEs.
+## Available Versions
 
-## VS Code
-After installing the plugin from the [marketplace](https://marketplace.visualstudio.com/items?itemName=smallcloud.codify), press the Refact logo to open the UI of the plugin.
+Refact is available in several versions designed for different needs:
 
-At the bottom, press the `Login/Register` button to connect your local development environment with your Refact account.
+- **Cloud Version**: For individual developers who prefer not to manage infrastructure. Just sign up, install, and start using. Navigate to the [Installation Hub](https://docs.refact.ai/introduction/quickstart/) to get started.
+- **Cloud for Teams**: Offers team-specific features for the **Cloud Version**:
+   - Stats Dashboard
+   - Access Control
+   
+   Read more in the [Refact.ai Teams Guide](https://docs.refact.ai/guides/version-specific/teams/)
+- **Self-Hosted Version**: For individual developers that need to keep their data localized for security or privacy reasons. Additionally, following features are available: 
+   - using your own GPU 
+   - fine-tuning LLMs
+   
+   Read more in the [Self-hosted Guide](https://docs.refact.ai/guides/version-specific/self-hosted/)
+- **Enterprise**: For large organizations needing advanced security, compliance, and scalability options. Includes premium support and customization. Read more in the [Refact.ai Enterprise Guide](https://docs.refact.ai/guides/version-specific/enterprise/)
 
-![Refact Login page](../../../assets/refact_login.png)
+## Key Features
 
-After completing the connection process, you'll be able to use the chat and the Toolbox which can be accessed by pressing `F1`.
+### Code Completion
+Get accurate code suggestions as you type, tailored to both the syntax and context of your project. Read more in the [Code Completion Section](https://docs.refact.ai/features/code-completion/).
 
-![Refact Toolbox](../../../assets/toolbox.png)
+### AI Chat
+Use AI Chat within your IDE to get coding assistance, explanations, and documentation lookup without leaving your coding environment.
 
+### AI Toolbox
+Access a suite of pre-built AI commands, such as `/gen` and `/naming`. You can find the full list of available commands and customization options in the [AI Toolbox Section](https://docs.refact.ai/features/ai-toolbox/) 
 
-## JetBrains IDEs
-For JetBrains products, after installing the plugin from the [marketplace](https://plugins.jetbrains.com/plugin/20647-codify), press ` Cmd + , ` to open the settings panel.
-
-Find `Refact` in the list of plugins and log in to your Refact account.
-
-![JetBrains Login](../../../assets/jetbrains-login.png)
-
-You will see your account details and privacy settings.
-
-![JetBrains Dashboard](../../../assets/jetbrains-dashboard.png)

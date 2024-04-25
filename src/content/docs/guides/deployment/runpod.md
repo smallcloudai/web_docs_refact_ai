@@ -16,7 +16,7 @@ Use the links above to create an instance with a template attached to the pod.
 ## Selecting a GPU for the Refact.ai Instance
 Once you click the link to the template, you will navigate to the page where you need to specify the GPU you want to use. 
 
-![Runpod Select GPU](../../../assets/runpod-select-gpu.png)
+![Runpod Select GPU](../../../../assets/runpod-select-gpu.png)
 
 Each GPU is represented as a card with the following information:
 - Drop down with a type of GPU. Here, you can specify the number of GPUs you want to use. By default, one GPU is selected.
@@ -30,24 +30,24 @@ In the next step, you will see a card with the settings of your GPU cloud before
 - Pricing plan
 - Template that is used for the deployment
 
-![Runpod Deployment Card](../../../assets/runpod-deployment-first-step.png)
+![Runpod Deployment Card](../../../../assets/runpod-deployment-first-step.png)
 
 Once confirmed that everything is specified correctly, press the `Continue` button or `Go back` to select a different type or amount of GPUs.
 
 After pressing the `Continue` button, you will see the summary of the instance you are about to deploy. 
 
-![Runpod Deployment Card](../../../assets/runpod-deployment-second-step.png)
+![Runpod Deployment Card](../../../../assets/runpod-deployment-second-step.png)
 
 The deployment process will start automatically when pressing the `Deploy` button. 
 ## Refact.ai Instance Configuration
 Your newly created pod comes fully configured because of the bootstrapping with a Refact.ai template.
 
-![Runpod Select GPU](../../../assets/runpod-pod-card.png)
+![Runpod Select GPU](../../../../assets/runpod-pod-card.png)
 
 ### Pod Settings
 To see the settings of your pod, press the burger icon at the bottom left side of the pod card. Inside the dropdown, press the `Edit pod` button.
 
-![Runpod Pod Settings](../../../assets/runpod-settings.gif)
+![Runpod Pod Settings](../../../../assets/runpod-settings.gif)
 
 In the modal window, you will see the following information about the instance:
 - Docker image name
@@ -60,7 +60,7 @@ In the modal window, you will see the following information about the instance:
 ### Connecting to Refact.ai Instance
 In the Runpod UI, press the `Connect` button to see different connection options.
 
-![Runpod Select GPU](../../../assets/runpod-connect-card.png)
+![Runpod Select GPU](../../../../assets/runpod-connect-card.png)
 
 #### Connecting to Web GUI 
 By pressing the `Connect to HTTP Service [Port 8008]` button, you will be redirected to a new page  where you will see the Refact.ai login page
