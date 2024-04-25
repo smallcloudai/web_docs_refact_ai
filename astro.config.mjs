@@ -64,7 +64,7 @@ export default defineConfig({
             {
               label: 'Installation',
               items: [
-                { label: 'Installation Hub', link: '/installation/installation' },
+                { label: 'Installation Hub', link: '/installation/installation-hub' },
                 { label: 'VS Code', link: '/installation/vs-code' },
                 { label: 'JetBrains IDEs', link: '/installation/jetbrains' },
               ] 
