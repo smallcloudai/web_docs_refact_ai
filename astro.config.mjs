@@ -73,8 +73,9 @@ export default defineConfig({
               label: 'Features',
               items: [
                 { label: 'AI Chat', link: '/features/ai-chat/' },
-                { label: 'Code Completion', link: '/features/code-completion/' },
                 { label: 'AI Toolbox', link: '/features/ai-toolbox/' },
+                { label: 'Code Completion', link: '/features/code-completion/' },
+                { label: 'Context', link: '/features/context/' },
               ]
             },
           ],

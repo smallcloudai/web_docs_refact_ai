@@ -54,7 +54,7 @@ Replace `"/path/to/your/refact_id_rsa.pem"` with the actual path to your downloa
 
 ## Deploy Refact
 
-Once connected via SSH, continue to the [Refact Enterprise](https://docs.refact.ai/guides/enterprise/) page to learn how to use Refact for teams.
+Once connected via SSH, continue to the [Refact Enterprise](https://docs.refact.ai/guides/version-specific/enterprise/) page to learn how to use Refact for teams.
 
 ## Known issues
 
