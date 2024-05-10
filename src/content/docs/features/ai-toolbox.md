@@ -57,3 +57,5 @@ When entering the `/help` command, you will see your custom command in the list 
 
 
 ![Refact Toolbox](../../../assets/custom_command.png)
+
+All of the commands in the Toolbox are available in the `~/.cache/refact/customization.yaml` file. If you want to reset the Toolbox to the default, you can delete this file.

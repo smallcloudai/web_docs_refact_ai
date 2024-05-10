@@ -76,6 +76,7 @@ export default defineConfig({
                 { label: 'AI Toolbox', link: '/features/ai-toolbox/' },
                 { label: 'Code Completion', link: '/features/code-completion/' },
                 { label: 'Context', link: '/features/context/' },
+                { label: 'Fine-tuning', link: '/features/finetuning/' },
               ]
             },
           ],
