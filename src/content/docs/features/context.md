@@ -26,6 +26,8 @@ In order to enable RAG, you need to follow the instructions depending on the ver
 ![RAG Settings](../../../assets/ast_vecdb.png)
 
 :::note
+RAG is more useful for the context size **more than 2048 tokens**, which is available for **Pro users**.
+
 Be aware that RAG indexing is a **high resource-consuming process**, so you will experience increased memory consumption of your **GPU, RAM, and CPU**.
 :::
 ### Refact Enterprise

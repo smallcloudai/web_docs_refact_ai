@@ -5,6 +5,12 @@ description: A reference page for AI Chat.
 
 You can ask questions about your code in the integrated AI chat, and it can provide you with answers about your code or generate new code for you based on the context of your current file.
 
+### **Context Length**
+Refact analyzes the code up to a certain length to provide suggestions.
+Context length depends on the plan you have chosen for your account:
+- **Free**: 4096 characters
+- **Pro**: 16384 characters
+
 ## @-commands
 
 This section outlines various commands that can be used in the AI chat. Below you can find information about functionality and usage of each command.
