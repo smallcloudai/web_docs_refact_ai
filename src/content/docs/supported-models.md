@@ -38,6 +38,10 @@ In Refact self-hosted you can select between the following models:
 <td>✓</td>
 </tr>
 <tr>
+<td>starcoder/1b/vllm</td>
+<td></td>
+</tr>
+<tr>
 <td>starcoder/3b/base</td>
 <td>✓</td>
 </tr>
@@ -46,16 +50,12 @@ In Refact self-hosted you can select between the following models:
 <td></td>
 </tr>
 <tr>
-<td>starcoder/7b/base</td>
-<td>✓</td>
-</tr>
-<tr>
 <td>deepseek-coder/1.3b/base</td>
 <td>✓</td>
 </tr>
 <tr>
 <td>deepseek-coder/1.3b/vllm</td>
-<td></td>
+<td>✓</td>
 </tr>
 <tr>
 <td>deepseek-coder/5.7b/mqa-base</td>
@@ -63,11 +63,15 @@ In Refact self-hosted you can select between the following models:
 </tr>
 <tr>
 <td>deepseek-coder/5.7b/vllm</td>
-<td></td>
+<td>✓</td>
 </tr>
 <tr>
 <td>codellama/7b</td>
 <td>✓</td>
+</tr>
+<tr>
+<td>stable/3b/code</td>
+<td></td>
 </tr>
 <tr>
 <td>starcoder/15b/base</td>
@@ -89,6 +93,26 @@ In Refact self-hosted you can select between the following models:
 <td>wizardcoder/15b</td>
 <td></td>
 </tr>
+<tr>
+<td>starcoder2/15b/base</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>starcoder2/3b/base</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>starcoder2/3b/vllm</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>starcoder2/7b/base</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>starcoder2/7b/vllm</td>
+<td>✓</td>
+</tr>
 </tbody>
 </table>
 
@@ -108,6 +132,12 @@ In Refact self-hosted you can select between the following models:
 </tr>
 <tr>
 <td>deepseek-coder/6.7b/instruct</td>
+</tr>
+<tr>
+<td>deepseek-coder/6.7b/instruct-finetune</td>
+</tr>
+<tr>
+<td>deepseek-coder/6.7b/instruct-finetune/vllm</td>
 </tr>
 <tr>
 <td>wizardlm/7b</td>
@@ -137,3 +167,21 @@ In Refact self-hosted you can select between the following models:
 </table>
 
 For an up-to-date list of models, see the [Known Models file on GitHub](https://github.com/smallcloudai/refact-lsp/blob/main/src/known_models.rs).
+
+## Integrations
+
+Refact.ai offers **OpenAI** and **Anthropic API** integrations.
+
+To enable these integrations, navigate to the **Model Hosting** page activate the **OpenAI** and/or **Anthropic** integrations by pressing the switch button in the **3rd Party APIs** section.
+
+![3rd Party APIs Secction](../../assets/3-party-apis.png)
+
+Press **API Keys tab** link, you will be redirected to the integrations page. Alternatively, you can access the integrations page by clicking on the **Settings** dropdown menu in the header and selecting **Credentials**.
+
+![Model Hosting Page with Dropdown Expanded](../../assets/api-keys-link.png)
+
+In the **Credentials** page, you can specify your **OpenAI** and/or **Anthropic** API keys.
+
+:::note
+Make sure the switch button is enabled for each API you want to use. Even if you specify the API key, it will not be used until the switch button is enabled.
+:::

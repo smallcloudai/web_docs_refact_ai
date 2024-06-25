@@ -9,6 +9,8 @@ You can ask questions about your code in the integrated AI chat, and it can prov
 
 This section outlines various commands that can be used in the AI chat. Below you can find information about functionality and usage of each command.
 
+![Chat Commands](../../../assets/chat-commands.png)
+
 ### `@workspace`
 
 - **Description**: Searches within VecDB for any specified query. This command allows you to search for any query within your repository/workspace.

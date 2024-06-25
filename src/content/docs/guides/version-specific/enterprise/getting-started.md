@@ -1,5 +1,5 @@
 ---
-title: Enterprise Refact Edition
+title: Enterprise Refact Edition - Getting Started
 description: What Enterprise Refact is and how it works.
 ---
 
@@ -8,8 +8,13 @@ The enterprise plan is designed for teams who want to have full control over the
 
 ## Prerequisites
 
-- Docker with GPU support
-- `docker-compose 1.29.2` or higher
+:::note
+This and the following step are required to deploy the Refact server in a local environment. If you are using services like AWS or Runpod, read one of the following guides:
+- [Runpod Guide](https://docs.refact.ai/guides/deployment/runpod/)
+- [AWS Guide](https://docs.refact.ai/guides/deployment/aws/getting-started)
+:::
+
+- Docker with GPU support. Follow the link to [install Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker). On Windows you need to install WSL 2 first. Follow the guide to [install WSL 2](https://docs.docker.com/desktop/install/windows-install).
 
 ## Pull Docker Image
 
@@ -23,7 +28,7 @@ If you have used the enterprise with a `beta` tag before, please ensure you use 
 :::
 [Download](https://docs.refact.ai/docker-compose.yml) the `docker-compose.yml` file and run the docker `compose up` command in your terminal.
 
-## Generating a Random Admin Password
+## Generating a Random Admin Password (Optional)
 
 The Refact server is designed to be safe to expose to the internet. To do it correctly, make sure you don't skip these two steps:
 1. Generate a random password using the `openssl` utility:
@@ -41,28 +46,6 @@ The unencrypted HTTP is fine when using a local network or VPN. But the plugins 
 
 Server Web UI requires an admin password to log in. If you forgot the password, you can delete the container and run it again. The `docker-compose.yml` defines persistent volumes to store all the important data, they will survive container restart, kill/run cycle or upgrade.
 
-### Activating the License
+## User Management
 
-Enter your license key in Settings -> License. Once it's activated you will see the number of users and the expiration date for your license. 
-If you don't have an enterprise license key, please [contact the Refact team](https://refact.ai/contact/), and will arrange it for you.
-
-### Access Control
-
-Managing users is possible through the Access Control tab.
-Click "Add new user" and the user and their unique API key will be generated automatically. 
-You can also add the team for each user.
-
-![Login](../../../../assets/enterprise-users.png)
-
-### Enabling vLLM
-
-With the enterprise version of Refact, you can use an inference engine that uses PagedAttention from the vLLM library. It works faster and supports continuous batching, which means it can start work on new inference tasks, while continuing to serve other clients at the same time.
-
-To enable vLLM select the Refact/1.6B/vllm model from the list of available models.
-
-## Setting up the plugins 
-For VS Code: go to “Settings” and specify the server address and Refact API key provided by your admin.
-
-For JetBrains: go to “Settings” and specify the server address and the Refact API key provided by your admin.
-
-Once you connect the API key, start writing code, and code suggestions from a selected model will appear automatically. 
+To find out how to manage users, refer to the [User Creation](https://docs.refact.ai/guides/version-specific/enterprise/users/#create-a-user) section.

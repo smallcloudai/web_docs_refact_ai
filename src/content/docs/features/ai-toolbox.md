@@ -57,3 +57,7 @@ When entering the `/help` command, you will see your custom command in the list 
 
 
 ![Refact Toolbox](../../../assets/custom_command.png)
+
+:::note
+When using toolbox commands without the `/` symbol, the command will be executed in the chat interface. Also, the command will be executed in the toolbox window.
+:::
