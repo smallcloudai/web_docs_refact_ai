@@ -87,7 +87,12 @@ export default defineConfig({
             { label: 'Deployment',
               items: [
                 { label: 'Runpod Deployment', link: '/guides/deployment/runpod/' },
-                { label: 'AWS Deployment', link: '/guides/deployment/aws/' },
+                { label: 'AWS Deployment', items: [
+                  { label: 'Getting Started', link: '/guides/deployment/aws/getting-started' },
+                  { label: 'Launch from EC2', link: '/guides/deployment/aws/ec2/' },
+                  { label: 'Launch from Website', link: '/guides/deployment/aws/marketplace/' },
+                  { label: 'Usage', link: '/guides/deployment/aws/usage/' },
+                ] },
              ] 
             },
             { label: 'Authentication', 
@@ -98,7 +103,15 @@ export default defineConfig({
             { label: 'Version-specific Usage',
               items: [
                 { label: 'Self-hosted Refact', link: '/guides/version-specific/self-hosted/' },
-                { label: 'Enterprise Refact', link: '/guides/version-specific/enterprise/' },
+                { label: 'Enterprise Refact', 
+                  items: [
+                    { label: 'Getting Started', link: '/guides/version-specific/enterprise/getting-started' },
+                    { label: 'License', link: '/guides/version-specific/enterprise/license/' },
+                    { label: 'Users', link: '/guides/version-specific/enterprise/users/' },
+                    { label: 'Model Hosting', link: '/guides/version-specific/enterprise/model-hosting/' },
+                    { label: 'Plugins', link: '/guides/version-specific/enterprise/plugins/' },
+                  ] 
+                },
                 { label: 'Refact Teams', link: '/guides/version-specific/teams/' },
               ]
             },

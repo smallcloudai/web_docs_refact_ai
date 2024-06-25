@@ -15,6 +15,8 @@ Context length depends on the plan you have chosen for your account:
 
 This section outlines various commands that can be used in the AI chat. Below you can find information about functionality and usage of each command.
 
+![Chat Commands](../../../assets/chat-commands.png)
+
 ### `@workspace`
 
 - **Description**: Searches within VecDB for any specified query. This command allows you to search for any query within your repository/workspace.
