@@ -9,6 +9,8 @@ refactor, analyze, and improve your code.
 The Toolbox can be accessed by pressing `F1`. It will open a modal 
 window associated with a specific line of code or a block of code.
 
+At the moment, AI Toolbox only works with VS Code.
+
 The following commands are available in the Toolbox:
 - `/bugs` - Find and fix bugs in your code
 - `/comment` - Comment each line
