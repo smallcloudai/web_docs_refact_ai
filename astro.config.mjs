@@ -123,6 +123,10 @@ export default defineConfig({
           link: '/supported-models/',
         },
         {
+          label: 'BYOK',
+          link: '/byok/',
+        },
+        {
           label: 'FAQ',
           link: '/faq/',
         },

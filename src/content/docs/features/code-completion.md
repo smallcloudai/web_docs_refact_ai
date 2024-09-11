@@ -11,7 +11,7 @@ Refact utilizes a technique called **Fill-in-the-middle** (FIM), where the conte
 
 ## Code Completion Models
 
-- **Cloud Version**: The cloud version of Refact uses the `Refact-1.6-fim` model.
+- **Cloud Version**: The cloud version of Refact uses the `Refact-1.6-fim` and `starcoder2/3b` model.
 - **Self-Hosted Version**: If you opt for the self-hosted version, you have the flexibility to choose from a variety of models. For a detailed list of available models, refer to the [Supported Models](https://docs.refact.ai/supported-models/) section of the documentation.
 - **Enterprise Version**: The enterprise version of Refact allows you to use the models available in the Self-hosted version and additional vLLM models.
 
@@ -20,8 +20,8 @@ Refact utilizes a technique called **Fill-in-the-middle** (FIM), where the conte
 ### **Context Length**
 Refact analyzes the code up to a certain length to provide suggestions.
 Context length depends on the plan you have chosen for your account:
-- **Free**: 2048 characters
-- **Pro**: 4096 characters
+- **Free**: 2048 tokens 
+- **Pro**: 4096 tokens
 
 ### **Cache Mechanism** 
 To enhance performance, Refact caches previous computations and suggestions.

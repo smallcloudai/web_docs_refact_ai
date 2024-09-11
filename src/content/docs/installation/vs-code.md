@@ -13,7 +13,7 @@ The quickest way to get started is with **Cloud** option. When pressing the **Ne
 
 ![Refact Cloud Login](../../../assets/refact_cloud_login.png)
 
-When pressing the **Login/Create Account** button, you will be redirected to the Refact's login page in your browser.
+When pressing the **Login** or **Create Account** button, you will be redirected to the Refact's login page in your browser.
 
 After completing the login process, the interface of the sidebar will change to the following:
 

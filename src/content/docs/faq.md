@@ -19,7 +19,7 @@ Our own model is Refact 1.6B code LLM. It's State-of-the-art for the size and In
 For chat we use models from the GPT family, you have the option to opt-out of them.  
 In the self-hosted version we also have StarCoder, Code Llama and WizardCoder models. 
 
-For a full list of our supported models and their functionality, check our [docs](https://docs.refact.ai/supported-models/supported-models/). 
+For a full list of our supported models and their functionality, check our [docs](https://docs.refact.ai/supported-models/). 
 
 ### Do you plan to support more IDEs? 
 

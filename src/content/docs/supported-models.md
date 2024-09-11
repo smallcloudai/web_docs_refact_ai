@@ -7,6 +7,7 @@ description: Supported Models in Refact
 
 ### Completion models 
 - Refact/1.6B  
+- starcoder2/3b
 
 ### Chat models
 - GPT 3.5
