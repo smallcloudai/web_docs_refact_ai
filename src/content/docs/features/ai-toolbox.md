@@ -6,7 +6,7 @@ description: A page about functions in the Refact AI Toolbox
 Refact.ai Toolbox is a set of functions that can be used to 
 refactor, analyze, and improve your code.
 
-The Toolbox can be accessed by pressing `F1`. It will open a modal 
+The Toolbox can be accessed by pressing `Alt+T`. It will open a modal 
 window associated with a specific line of code or a block of code.
 
 At the moment, AI Toolbox only works with VS Code.
@@ -28,7 +28,7 @@ The following commands are available in the Toolbox:
 ## Custom toolbox commands
 
 You can also create your own toolbox commands. To do that, you need to press 
-`F1` and type `/help` in the Refact.ai console. At the bottom, you will see a 
+`Alt+T` and type `/help` in the Refact.ai console. At the bottom, you will see a 
 button called `Customize toolbox`. Press it and the `customization.yaml` 
 file will open.
 
