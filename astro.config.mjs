@@ -95,6 +95,16 @@ export default defineConfig({
                 ] },
              ] 
             },
+            {
+              label: 'Plugins',
+              items: [
+                { label: 'JetBrains IDEs', 
+                  items: [
+                    { label: 'Troubleshooting', link: '/guides/plugins/jetbrains/troubleshooting/' },
+                  ]
+                },
+              ]
+            },
             { label: 'Authentication', 
               items: [
                 { label: 'Keycloak Integration', link: '/guides/authentication/keycloak/' },
