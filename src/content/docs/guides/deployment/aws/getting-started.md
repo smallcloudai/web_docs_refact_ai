@@ -3,9 +3,9 @@ title: Deploying Refact.ai on AWS - Getting Started
 description: A page with instructions on how to deploy Refact on AWS.
 ---
 
-This guide provides step-by-step instructions for deploying Refact on AWS.
+This guide provides step-by-step instructions for deploying Refact.ai on AWS.
 
-Navigate to Refact.ai Marketplace Page to deploy Refact on AWS.
+Navigate to Refact.ai Marketplace Page to deploy Refact.ai Enterprise on AWS ([NVIDIA](https://aws.amazon.com/marketplace/pp/prodview-oxr7ztqsgs3lk?sr=0-1&ref_=beagle&applicationId=AWSMPContessa) or [Neuron Chip](https://aws.amazon.com/marketplace/pp/prodview-rdudhchequqly?sr=0-2&ref_=beagle&applicationId=AWSMPContessa))
 
 1. On the Refact.ai Marketplace page, press **Continue to Subscribe**.
 ![Refact.ai Marketplace Page](../../../../../assets/refact_marketplace.png)
