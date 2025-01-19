@@ -64,9 +64,9 @@ export default defineConfig({
             {
               label: 'Installation',
               items: [
-                { label: 'Installation Hub', link: '/installation/installation-hub' },
-                { label: 'VS Code', link: '/installation/vs-code' },
-                { label: 'JetBrains IDEs', link: '/installation/jetbrains' },
+                { label: 'Installation Hub', link: '/installation/installation-hub/' },
+                { label: 'VS Code', link: '/installation/vs-code/' },
+                { label: 'JetBrains IDEs', link: '/installation/jetbrains/' },
               ] 
             },
             {
@@ -88,7 +88,7 @@ export default defineConfig({
               items: [
                 { label: 'Runpod Deployment', link: '/guides/deployment/runpod/' },
                 { label: 'AWS Deployment', items: [
-                  { label: 'Getting Started', link: '/guides/deployment/aws/getting-started' },
+                  { label: 'Getting Started', link: '/guides/deployment/aws/getting-started/' },
                   { label: 'Launch from EC2', link: '/guides/deployment/aws/ec2/' },
                   { label: 'Launch from Website', link: '/guides/deployment/aws/marketplace/' },
                   { label: 'Usage', link: '/guides/deployment/aws/usage/' },
@@ -115,7 +115,7 @@ export default defineConfig({
                 { label: 'Self-hosted Refact', link: '/guides/version-specific/self-hosted/' },
                 { label: 'Enterprise Refact', 
                   items: [
-                    { label: 'Getting Started', link: '/guides/version-specific/enterprise/getting-started' },
+                    { label: 'Getting Started', link: '/guides/version-specific/enterprise/getting-started/' },
                     { label: 'License', link: '/guides/version-specific/enterprise/license/' },
                     { label: 'Users', link: '/guides/version-specific/enterprise/users/' },
                     { label: 'Model Hosting', link: '/guides/version-specific/enterprise/model-hosting/' },
