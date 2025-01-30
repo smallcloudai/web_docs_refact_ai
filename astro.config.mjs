@@ -74,6 +74,29 @@ export default defineConfig({
               items: [
                 { label: 'AI Chat', link: '/features/ai-chat/' },
                 { label: 'AI Toolbox', link: '/features/ai-toolbox/' },
+                { label: 'Autonomous Agent', items: [
+                  { label: 'Getting Started', link: '/features/autonomous-agent/getting-started/' },
+                  { label: 'Overview', link: '/features/autonomous-agent/overview/' },
+                  { label: 'Integrations', items: [
+                    { label: 'Overview', link: '/features/autonomous-agent/integrations/' },
+                    // Development Tools
+                    { label: 'Chrome', link: '/features/autonomous-agent/integrations/chrome/' },
+                    { label: 'Shell Commands', link: '/features/autonomous-agent/integrations/shell-commands/' },
+                    { label: 'Command Line Tool', link: '/features/autonomous-agent/integrations/command-line-tool/' },
+                    { label: 'Command Line Service', link: '/features/autonomous-agent/integrations/command-line-service/' },
+                    // Version Control
+                    { label: 'GitHub', link: '/features/autonomous-agent/integrations/github/' },
+                    { label: 'GitLab', link: '/features/autonomous-agent/integrations/gitlab/' },
+                    // Container Management
+                    { label: 'Docker', link: '/features/autonomous-agent/integrations/docker/' },
+                    { label: 'Isolation', link: '/features/autonomous-agent/integrations/isolation/' },
+                    // Databases
+                    { label: 'PostgreSQL', link: '/features/autonomous-agent/integrations/postgresql/' },
+                    { label: 'MySQL', link: '/features/autonomous-agent/integrations/mysql/' },
+                    // Debugging
+                    { label: 'PDB', link: '/features/autonomous-agent/integrations/pdb/' },
+                  ] },
+                ] },
                 { label: 'Code Completion', link: '/features/code-completion/' },
                 { label: 'Context', link: '/features/context/' },
                 { label: 'Fine-tuning', link: '/features/finetuning/' },
