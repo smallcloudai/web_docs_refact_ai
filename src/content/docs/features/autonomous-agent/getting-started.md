@@ -40,9 +40,3 @@ Start interacting with the agent by writing your prompt and watch the magic happ
 - Start with simple tasks to understand the agent's capabilities
 - Experiment with different types of requests to learn what works best
 - Pay attention to the agent's feedback and suggestions
-
-## Next Steps
-Once you're comfortable with the basics, explore more advanced features:
-- [Learn about Agent capabilities](../agent-overview)
-- [Discover available integrations](../agent-integrations)
-- [Understand how to manage multiple chats](../agent-overview#run-several-chats)
