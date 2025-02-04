@@ -58,4 +58,4 @@ Toggle the "Allow Patches" option to let the Agent make changes without requirin
 See an example of the Agent creating a virtual environment and installing numpy.
 
 
-For setup instructions, visit the [Agent Integrations](../agent-integrations) page.
+For setup instructions, visit the [Agent Integrations](/features/autonomous-agent/integrations/) page.

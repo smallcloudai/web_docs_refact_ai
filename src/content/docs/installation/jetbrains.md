@@ -22,7 +22,7 @@ After completing the login process, the interface of the sidebar will change to 
 For the Self-hosted and Enterprise options, follow one of the following guides:
 
 - [Self-hosted Login](https://docs.refact.ai/guides/version-specific/self-hosted/#custom-inference-setup)
-- [Enterprise Login](https://docs.refact.ai/guides/version-specific/enterprise/#setting-up-the-plugins)
+- [Enterprise Login](https://docs.refact.ai/guides/version-specific/enterprise/getting-started/#setting-up-the-plugins)
 
 
 # Early Access Program

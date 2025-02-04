@@ -18,7 +18,7 @@ Refact is available in several versions designed for different needs:
    - fine-tuning LLMs
    
    Read more in the [Self-hosted Guide](https://docs.refact.ai/guides/version-specific/self-hosted/)
-- **Enterprise**: For large organizations needing advanced security, compliance, and scalability options. Includes premium support and customization. Read more in the [Refact.ai Enterprise Guide](https://docs.refact.ai/guides/version-specific/enterprise/)
+- **Enterprise**: For large organizations needing advanced security, compliance, and scalability options. Includes premium support and customization. Read more in the [Refact.ai Enterprise Guide](https://docs.refact.ai/guides/version-specific/enterprise/getting-started/)
 
 ## Key Features
 

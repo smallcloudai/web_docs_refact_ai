@@ -7,7 +7,7 @@ Fine-tuning is a process of pretraining a base model to improve the quality of g
 
 Fine-tuning is supported in the following version of Refact.ai:
 - [Self-hosted Refact](https://docs.refact.ai/guides/version-specific/self-hosted/)
-- [Enterprise Refact](https://docs.refact.ai/guides/version-specific/enterprise/)
+- [Enterprise Refact](https://docs.refact.ai/guides/version-specific/enterprise/getting-started/)
 
 ## Use-cases
 
