@@ -17,7 +17,6 @@ The Refact.ai Agent supports various integrations to enhance your development wo
 
 ## Container Management
 - [Docker](./docker) - Manage Docker containers and environments
-- [Isolation](./isolation) - Run commands in isolated Docker containers
 
 ## Databases
 - [PostgreSQL](./postgresql) - Work with PostgreSQL databases
