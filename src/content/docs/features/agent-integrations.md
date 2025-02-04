@@ -19,6 +19,7 @@ The Agent currently supports the following integrations:
 - [Command-line Tool](./integrations/cmdline-tool) - Custom command-line tool integration
 - [Command-line Service](./integrations/cmdline-service) - Background service management
 - [Docker](./integrations/docker) - Docker container management
+- [Isolation](./integrations/isolation) - Isolated environment execution
 
 ## Configuring Integrations
 
