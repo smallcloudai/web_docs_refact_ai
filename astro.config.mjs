@@ -89,7 +89,6 @@ export default defineConfig({
                     { label: 'GitLab', link: '/features/autonomous-agent/integrations/gitlab/' },
                     // Container Management
                     { label: 'Docker', link: '/features/autonomous-agent/integrations/docker/' },
-                    { label: 'Isolation', link: '/features/autonomous-agent/integrations/isolation/' },
                     // Databases
                     { label: 'PostgreSQL', link: '/features/autonomous-agent/integrations/postgresql/' },
                     { label: 'MySQL', link: '/features/autonomous-agent/integrations/mysql/' },
