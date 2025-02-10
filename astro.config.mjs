@@ -52,10 +52,12 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Introduction',
+          collapsed: true,
           items: [
             { label: 'Quickstart', link: '/introduction/quickstart/' },
             {
               label: 'Installation',
+              collapsed: true,
               items: [
                 { label: 'Installation Hub', link: '/installation/installation-hub/' },
                 { label: 'VS Code', link: '/installation/vs-code/' },
@@ -64,13 +66,18 @@ export default defineConfig({
             },
             {
               label: 'Features',
+              collapsed: true,
               items: [
                 { label: 'AI Chat', link: '/features/ai-chat/' },
                 { label: 'AI Toolbox', link: '/features/ai-toolbox/' },
-                { label: 'Autonomous Agent', items: [
+                { label: 'Autonomous Agent', 
+                  collapsed: true,
+                  items: [
                   { label: 'Getting Started', link: '/features/autonomous-agent/getting-started/' },
                   { label: 'Overview', link: '/features/autonomous-agent/overview/' },
-                  { label: 'Integrations', items: [
+                  { label: 'Integrations', 
+                    collapsed: true,
+                    items: [
                     { label: 'Overview', link: '/features/autonomous-agent/integrations/' },
                     // Development Tools
                     { label: 'Chrome', link: '/features/autonomous-agent/integrations/chrome/' },
@@ -98,11 +105,15 @@ export default defineConfig({
         },
         {
           label: 'Guides',
+          collapsed: true,
           items: [
             { label: 'Deployment',
+              collapsed: true,
               items: [
                 { label: 'Runpod Deployment', link: '/guides/deployment/runpod/' },
-                { label: 'AWS Deployment', items: [
+                { label: 'AWS Deployment', 
+                  collapsed: true,
+                  items: [
                   { label: 'Getting Started', link: '/guides/deployment/aws/getting-started/' },
                   { label: 'Launch from EC2', link: '/guides/deployment/aws/ec2/' },
                   { label: 'Launch from Website', link: '/guides/deployment/aws/marketplace/' },
@@ -112,8 +123,10 @@ export default defineConfig({
             },
             {
               label: 'Plugins',
+              collapsed: true,
               items: [
                 { label: 'JetBrains IDEs', 
+                  collapsed: true,
                   items: [
                     { label: 'Troubleshooting', link: '/guides/plugins/jetbrains/troubleshooting/' },
                   ]
@@ -121,14 +134,22 @@ export default defineConfig({
               ]
             },
             { label: 'Authentication', 
+              collapsed: true,
               items: [
                 { label: 'Keycloak Integration', link: '/guides/authentication/keycloak/' },
               ]
             },
             { label: 'Version-specific Usage',
+              collapsed: true,
               items: [
-                { label: 'Self-hosted Refact', link: '/guides/version-specific/self-hosted/' },
+                { label: 'Self-hosted Refact',
+                  collapsed: true,
+                  items: [
+                    { label: 'Self-hosted Refact', link: '/guides/version-specific/self-hosted/' }
+                  ]
+                },
                 { label: 'Enterprise Refact', 
+                  collapsed: true,
                   items: [
                     { label: 'Getting Started', link: '/guides/version-specific/enterprise/getting-started/' },
                     { label: 'License', link: '/guides/version-specific/enterprise/license/' },
