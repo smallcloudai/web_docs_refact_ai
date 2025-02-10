@@ -14,6 +14,29 @@
     --sl-color-black: #181818;
 }
 
+/* Main sidebar items - first level */
+.sidebar-content > .sidebar-groups > li > details > summary,
+.sidebar-content > .sidebar-groups > li > a {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Second level items - ensure all items at this level match */
+.sidebar-content > .sidebar-groups > li > details li > a,
+.sidebar-content > .sidebar-groups > li > details li > details > summary {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+/* Third level and deeper items */
+.sidebar-content > .sidebar-groups > li > details li > details li > a,
+.sidebar-content > .sidebar-groups > li > details li > details li > details > summary {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    color: var(--sl-color-gray-3);
+}
+
 /* Light mode colors. */
 :root[data-theme='light'] {
     --sl-color-accent-low: #311514;
