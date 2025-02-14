@@ -6,6 +6,7 @@ description: Overview of available integrations for the Refact.ai Agent
 The Refact.ai Agent supports various integrations to enhance your development workflow. These integrations extend the Agent's [core tools](../tools) with external services and capabilities.
 
 ## Development Tools
+- [Chrome](./chrome) - Control Chrome browser for testing
 - [Command-line Tool](./command-line-tool) - Configure and use custom command-line tools
 - [Command-line Service](./command-line-service) - Run and manage background processes
 - [Shell Commands](./shell-commands) - Execute terminal commands with user confirmation
