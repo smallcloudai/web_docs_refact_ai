@@ -158,6 +158,7 @@ export default defineConfig({
               items: [
                 { label: 'Overview', link: '/features/autonomous-agent/integrations/' },
                 // Development Tools
+    		{ label: 'Chrome', link: '/features/autonomous-agent/integrations/chrome/' },
                 { label: 'Shell Commands', link: '/features/autonomous-agent/integrations/shell-commands/' },
                 { label: 'Command Line Tool', link: '/features/autonomous-agent/integrations/command-line-tool/' },
                 { label: 'Command Line Service', link: '/features/autonomous-agent/integrations/command-line-service/' },
