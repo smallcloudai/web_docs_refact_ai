@@ -158,9 +158,11 @@ export default defineConfig({
               items: [
                 { label: 'Overview', link: '/features/autonomous-agent/integrations/' },
                 // Development Tools
+    		{ label: 'Chrome', link: '/features/autonomous-agent/integrations/chrome/' },
                 { label: 'Shell Commands', link: '/features/autonomous-agent/integrations/shell-commands/' },
                 { label: 'Command Line Tool', link: '/features/autonomous-agent/integrations/command-line-tool/' },
                 { label: 'Command Line Service', link: '/features/autonomous-agent/integrations/command-line-service/' },
+                { label: 'MCP Server', link: '/features/autonomous-agent/integrations/mcp/', attrs: { 'aria-label': 'Connect to Model Context Protocol servers' } },
                 // Version Control
                 { label: 'GitHub', link: '/features/autonomous-agent/integrations/github/' },
                 { label: 'GitLab', link: '/features/autonomous-agent/integrations/gitlab/' },
@@ -364,8 +366,8 @@ export default defineConfig({
         },
       ],
       customCss: [
-        // Relative path to your custom CSS file
-        './src/styles/custom.css',
+        // Main CSS entry point that imports all other CSS files
+        './src/styles/index.css',
       ],
       editLink: {
         baseUrl: 'https://github.com/smallcloudai/web_docs_refact_ai/edit/main/',
