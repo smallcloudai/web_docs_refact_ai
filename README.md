@@ -1,4 +1,4 @@
-# 📢 Repository Moved!
+# 📢 Refact.ai Docs Repository Moved!
 
 This documentation repository has been moved into our **monorepository**. All future updates and changes will be available there in **/docs**
 
